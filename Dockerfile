@@ -1,4 +1,4 @@
-FROM tomcat:10-jdk11-corretto
+FROM tomcat:10.1.20-jdk17-temurin-jammy
 
 ADD ./target/xsl-1.0.war /usr/local/tomcat/webapps/
 
